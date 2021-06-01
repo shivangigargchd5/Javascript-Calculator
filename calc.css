@@ -1,0 +1,56 @@
+/* shape of calculator */
+#main{
+    position:relative;
+    height:600px;
+    width:360px;
+    background-color:black;
+    margin-top:40px;
+    margin-left:30%;
+    box-sizing: border-box;
+}
+
+/* container enclosing all the cells */
+#body{
+    position:absolute;
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* properties of each cell */
+.box{
+    position:relative;
+    height:90px;
+    width:90px;
+    font-size:35px;
+    font-family: sans-serif; 
+    box-sizing: border-box;  
+}
+.box1:hover{
+   background-color:lightslategray;
+}
+
+/* equal */
+#equal{
+    margin-left: 20px;
+    background-color:lightgreen;
+    height:62px;
+    width:62px;
+    border-radius: 50%;
+}
+#equal:hover{
+    background-color:lightslategray;
+}
+
+/* positioning of result */
+#result{
+    box-sizing: border-box;
+    font-size:42px;
+    color:white;
+    height:145px;
+    width:360px;
+    text-align: right;
+}
